@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll"; 
+import pdf from '../assets/curriculo.pdf'
 
 function HamburguerButton (){
 
@@ -52,7 +53,7 @@ function HamburguerButton (){
                             </Link>
                         </li>
                         <li className="">
-                            <a href='../pdf.html' target="_blank" className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
+                            <a href={pdf} without rel="noopener noreferrer" target="_blank"  className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
                         </li>
 
                     </ul>
