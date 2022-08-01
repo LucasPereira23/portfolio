@@ -20,6 +20,19 @@ a, h5, button{
   font-family: 'Fira Code', monospace;
 }
 
+#link-img{
+  background-image: url(../images/pokemon-wpp.png);
+  height: 100%;
+  width: 100%;
+  background-position: top;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+}
+
+#link-img-2{
+  
+}
+
 ::-webkit-scrollbar{
   width: 7px;
 }
@@ -227,8 +240,68 @@ a, h5, button{
   }
 }
 
-@media (min-width: 1px) and (max-width: 800px)
-{
+#link-img{
+  background-image: url(../images/pokemon-wpp-small.png);
+  height: 49vw;
+  width: 100%;
+  background-position: top;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  opacity: 30%;
+}
 
+#link-img-2{
+  background-image: url(../images/ignite-wpp.png);
+  height: 49vw;
+  width: 100%;
+  background-position: top;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  opacity: 30%;
+}
+
+@media (min-width: 1px) and (max-width: 319.99px)
+{
+  #link-img{
+    background-position: top;
+    height: 100%;
+    background-size: 500px 400px;
+  }
+
+  #link-img-2{
+    background-position: top;
+    height: 100%;
+    background-size: 500px 400px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 639.99px)
+{
+  #link-img{
+    background-position: top;
+    height: 100%;
+    background-size: 580px 400px;
+  }
+
+  #link-img-2{
+    background-position: top;
+    height: 100%;
+    background-size: 580px 400px;
+  }
+}
+
+
+@media (min-width: 640px) and (max-width: 800px)
+{
+  #link-img{
+
+    background-size: 700px 500px;
+  }
+
+  #link-img-2{
+
+    background-size: 700px 500px;
+  }
 }
 

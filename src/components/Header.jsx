@@ -38,7 +38,7 @@ function Header() {
   return (
     <div data-aos="fade-in">
       <div  id="navbar" className='z-50 fixed w-full top-0 left-0 h-20 py-0 sm-mobile:px-4 mobile:px-10 md:px-24 box-border flex justify-between items-center duration-300 bg-gray-700/90 backdrop-blur-sm'>
-      <a href="" className="border-2 px-4 py-2 text-white-100 rounded-md hover:bg-white-100/10 transition-all duration-300">L</a>
+      <a href="https://lucaspereira.vercel.app/" className="border-2 px-4 py-2 text-white-100 rounded-md hover:bg-white-100/10 transition-all duration-300">L</a>
       <ul className="m-0 p-0 sm-mobile:hidden mobile:hidden sm:hidden md:flex items-center justify-center">
         <li className="list-none text-white-100 py-0 px-5 text-sm font-light ">
           <a href="" className="mr-2 text-red-500 font-normal">01.</a>

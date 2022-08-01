@@ -12,7 +12,7 @@ function HamburguerButton (){
 
     return (
 
-        <div className="md:hidden h-[100vh] w-[100px] absolute top-0 right-0">
+        <div className="md:hidden h-[100vh] absolute top-0 right-0">
             <div className="" class={active ? 'icon2 iconActive2' : 'icon2'} onClick={ToggleMode}>
                 <div  class='hamburguer2 hamburguerIcon2'></div>
             </div>
@@ -21,7 +21,7 @@ function HamburguerButton (){
                     <ul>
                         <li>
                             <h5>01.</h5>
-                            <Link
+                            <Link className="cursor-pointer"
                                 activeClass="active"
                                 to="content-about"
                                 spy={true}
@@ -30,9 +30,9 @@ function HamburguerButton (){
                                 duration={500}>Sobre
                             </Link>
                         </li>
-                        <li className="">
+                        <li>
                             <h5>02.</h5>
-                            <Link
+                            <Link className="cursor-pointer"
                                 activeClass="active"
                                 to="content-work"
                                 spy={true}
@@ -41,9 +41,9 @@ function HamburguerButton (){
                                 duration={500}>Projetos
                             </Link>
                         </li>
-                        <li className="">
+                        <li>
                             <h5>03.</h5>
-                            <Link
+                            <Link className="cursor-pointer"
                                 activeClass="active"
                                 to="content-contact"
                                 spy={true}

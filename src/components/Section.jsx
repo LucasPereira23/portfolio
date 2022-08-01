@@ -34,7 +34,7 @@ function Section () {
                 <span className="text-red-500">Olá, meu nome é</span>
                 <h1 className="mt-6 sm-mobile:text-xl mobile:text-4xl sm:text-7xl text-7xl font-bold text-white-500">Lucas Pereira.</h1>
                 <h1 className="mobile:mt-3 sm:mt-6 mobile:text-4xl sm:text-7xl font-semibold text-white-700">Programador Web.</h1>
-                <span className="mobile:mt-6 sm:mt-10 mobile:h-44 sm:h-20 sm-mobile:w-[100%] mobile:w-[100%]  sm:w-[550px] inline-block text-white-700 font-light">Sou um programador web que tem se especializado principalmente no Front-End. Atualmente frequento o 4º semestre de Análise e Desenvolvimento de Sistemas e busco uma primeira oportunidade na área.</span>
+                <span className="mobile:mt-6 sm:mt-10 sm-mobile:h-auto sm:h-20 sm-mobile:w-[100%] mobile:w-[100%]  sm:w-[550px] inline-block text-white-700 font-light">Sou um programador web que tem se especializado principalmente no Front-End. Atualmente frequento o 4º semestre de Análise e Desenvolvimento de Sistemas e busco uma primeira oportunidade na área.</span>
                 <a href="https://github.com/LucasPereira23?tab=repositories" target="_blank" className="flex items-center justify-center mt-10 sm-mobile:w-[80%] mobile:w-64 border-[1px] rounded-[4px] px-[22px] py-[16px] text-white-100 text-sm font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Confira meus projetos</a>
             </div>
 
@@ -99,7 +99,7 @@ function Section () {
                     </div>
                     <div className="flex " >
 
-                        <div className="flex w-[300px] mobile:justify-start sm:justify-start md:justify-start relative sm-mobile:ml-10 mobile:ml-10 sm:ml-12 ">
+                        <div className="flex sm-mobile:w-auto sm:w-[300px] mobile:justify-start sm:justify-start md:justify-start relative sm-mobile:ml-10 mobile:ml-10 sm:ml-12 ">
                             <span id="block-img" className="z-30 absolute peer bg-red-500/40 hover:bg-transparent transition-all duration-100 left-0 top-0 sm-mobile:h-[55vw] sm-mobile:w-[55vw] mobile:h-[55vw] mobile:w-[55vw]  sm:h-[300px] sm:w-[300px] md:h-[28vw] md:w-[80%] lg:h-[300px] lg:w-[300px] lg:max-w-[300px] rounded-md"></span>
                             <img className=" sm-mobile:h-[55vw] sm-mobile:w-[55vw] mobile:h-[55vw] mobile:w-[55vw] sm:h-[300px] sm:w-[300px] md:h-[28vw] md:w-[80%] lg:h-[300px] lg:w-[300px] lg:min-w-[300px] rounded-md z-20" src={perfil} alt="" />
                             <span htmlFor="block-img" className="absolute peer-hover:left-3 peer-hover:top-3 transition-all duration-200 left-4 top-4 sm-mobile:h-[55vw] sm-mobile:w-[55vw] mobile:h-[55vw] mobile:w-[55vw] sm:h-[300px] sm:w-[300px] md:h-[28vw] md:w-[80%] lg:h-[300px] lg:w-[300px] lg:max-w-[300px] border-[2px] rounded-md "></span>
@@ -119,7 +119,8 @@ function Section () {
                     <div className="flex flex-row relative items-center justify-end ">
                         
                         <a href="https://github.com/LucasPereira23/ignite-lab-react" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 left-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
-                        <img className="absolute xl:top-0 left-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px]" src={ignite} alt="" />
+                        <div id="link-img-2" className="absolute left-0 sm-mobile:block md:hidden"></div>
+                        <img className="sm-mobile:hidden md:block absolute xl:top-0 left-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px]" src={ignite} alt="" />
                         <div className="h-[360px] sm-mobile:w-[100%] sm:w-auto py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start md:items-end justify-between ">
                             <div className="flex flex-col sm-mobile:items-start sm:items-start  md:items-end z-20">
                                 <span className="sm-mobile:text-[#dd2f2f] sm:text-[#dd2f2f] md:text-red-500 text-sm pb-1">Projeto Destaque</span>
@@ -151,8 +152,9 @@ function Section () {
 
                 <div className="flex flex-row relative items-center justify-start ">
                         
-                        <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[28vw]  xl:w-[60%] 2xl:h-[400px]  2xl:w-[700px]  rounded-[3px] z-10"></a>
-                        <img className="absolute xl:top-0 right-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[28vw]  xl:w-[60%] 2xl:h-[400px]  2xl:w-[700px] rounded-[3px]" src={pokemon} alt="" />
+                    <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%]  xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
+                        <div id="link-img" className="absolute left-0 sm-mobile:block md:hidden"></div>
+                        <img className="sm-mobile:hidden md:block absolute xl:top-0 right-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px]" src={pokemon} alt="" />
                         <div className=" h-[360px] mobile:w-[100%] sm:w-auto py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start md:items-start justify-between ">
 
                                 <div className="flex flex-col sm-mobile:items-start sm:items-start  md:items-start z-20">
@@ -165,10 +167,10 @@ function Section () {
                                         O usuário dela poderá se registrar salvar seus pokemons favoritos.
                                     </span>
                                 </div>
-                                <div className="text-sm font-light flex flex-wrap items-center justify-between mobile:w-[100%] sm:w-[250px] text-white-700 md:mb-4 lg:mb-0 z-20">
+                                <div className="text-sm font-light flex flex-wrap items-center justify-start mobile:w-[100%] sm:w-[250px] text-white-700 md:mb-4 lg:mb-0 z-20">
                                     <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>ReactJs</span>
+                                    <span className="mx-3">CSS</span>
+                                    <span className="mr-3">ReactJs</span>
                                     <span>TailWind</span>
                                 </div>
                                 <div className="flex text-white-500 z-20">
@@ -215,7 +217,7 @@ function Section () {
                             <span className="text-red-700"><FolderSimple size={48} /></span>
                             <a href="https://github.com/LucasPereira23/ignite-lab-react" target="_blank" className="text-white-500 cursor-pointer hover:text-red-500 transition-all duration-300 z-10"><GithubLogo size={26} /></a>
                         </div>
-                        <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacão de Videoaulas Ignite Lab - React</span>
+                        <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacão de Videoaulas Ignite Lab</span>
                         <span className="text-white-700 font-light text-sm mb-6">Aplicacão com banco para a visualização de videoaulas que os professores postarem</span>
                         <div className="text-white-700/60 font-extralight text-xs">
                             <span className="mr-4">React</span>
@@ -231,7 +233,7 @@ function Section () {
                             <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="text-white-500 cursor-pointer hover:text-red-500 transition-all duration-300 z-10"><GithubLogo size={26} /></a>
                         </div>
                         <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">PokeSearch - Aplicação Pokedex</span>
-                        <span className="text-white-700 font-light text-sm mb-6">Um site de de pokedex para que os usuários possam ver informações de todos os pokemons existentes</span>
+                        <span className="text-white-700 font-light text-sm mb-6">Pokedex para que os usuários possam ver informações de todos os pokemons existentes</span>
                         <div className="text-white-700/60 font-extralight text-xs">
                             <span className="mr-4">React</span>
                             <span className="mr-4">TypeScript</span>
@@ -263,7 +265,7 @@ function Section () {
                         <h5 className="mr-2 mb-5">03.</h5>
                         <span className="">Contato</span>
                     </div>
-                    <span className="flex items-center justify-center mobile:text-4xl sm:text-5xl font-semibold text-white-700 mb-6">Entre em Contato</span>
+                    <span className="flex items-center justify-center text-center mobile:text-4xl sm-mobile:text-3xl sm:text-5xl font-semibold text-white-700 mb-6">Entre em Contato</span>
                     <span className="flex justify-center items-center text-center text-white-700/50 font-light mb-14">No momento busco por uma primeira oportunidade na área. Você pode entrar em contato comigo por e-mail :)</span>
                     <a href="mailto:lucas_231200@hotmail.com" target="_blank" className="border-[1px] rounded-[4px] px-[28px] py-[16px] text-white-100 text-sm font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Fale Comigo</a>
                 </div>
