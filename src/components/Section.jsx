@@ -46,12 +46,14 @@ function Section () {
                 </div>
                 <div className="flex sm-mobile:flex-col mobile:flex-col sm:flex-col md:flex-row">
                     <div className="flex flex-col mobile:w-[100%] sm:h-auto sm:w-[500px] md:w-[550px] xl: justify-between text-white-700 font-light">
-                            <span className="mb-8">Oi! Meu nome é Lucas pereira e sou apaixonado em desenvolver. Atualmente estou cursando a faculdade. Desde o primeiro contato com a programação e tudo que a envolve tenho desenvolvido muita vontade de desenvolver e aprender. Meu foco tem sido o Front-End mas também busco me capacitar no Back-End.
+                            <span className="mb-8">Oi! Meu nome é Lucas pereira e sou apaixonado em desenvolver.
+                             Atualmente estou cursando a faculdade. Desde o primeiro contato com a programação e tudo que a 
+                             envolve tenho desenvolvido muita vontade de desenvolver e aprender. Meu foco tem sido o Front-End mas também busco me 
+                             capacitar no Back-End.
                             </span>
 
                             <span>
-                            Me encontrei nessa área de desenvolvimento e estou amando tudo que aprendo e desenvolvo 
-                            nela. Estou me dedicando ao máximo para que possa ser apto e ter uma oportunidade de 
+                            Me encontrei nessa área e estou me dedicando ao máximo para que possa ser apto e ter uma oportunidade de 
                             trabalho, venho fazendo cursos e desenvolvendo sites por conta própria em todo tempo livre 
                             que tenho.
                             </span>
@@ -195,12 +197,12 @@ function Section () {
 
                 <div  data-aos="fade-up" className="mobile:min-w-[290px] mobile:max-w-[450px] sm:max-w-[575px] sm:w-[575px] md:w-[600px] md:max-w-[600px] lg:w-[750px] lg:max-w-[750px] xl:w-[1000px] xl:max-w-[1000px] flex flex-wrap items-center justify-between">
                     <a href="https://github.com/LucasPereira23/NLW" target="_blank"  className="peer bg-[#40404d] cursor-pointer relative top-0 hover:top-[-10px] transition-all duration-300 flex flex-col mt-5 h-auto min-h-[300px] sm:w-[280px] md:w-[292px] lg:w-[366px] xl:w-80 px-7 py-8 rounded-[4px] shadow-lg shadow-gray-700/80">
-                        <div id="card-h"  className="peer absolute top-0 left-0 h-full xl:w-full "></div>
+                        <div id="card-h"  className="peer absolute top-0 left-0 h-full w-full "></div>
                         <div className="flex flex-row justify-between items-center mb-6">
                             <span className="text-red-700"><FolderSimple size={48} /></span>
                             <a href="https://github.com/LucasPereira23/NLW" target="_blank"  className="text-white-500 cursor-pointer hover:text-red-500 transition-all duration-300 z-10"><GithubLogo size={26} /></a>
                         </div>
-                        <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacao de Forum - Next Level Week</span>
+                        <span htmlFor="card-h" className="peer-hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacao de Forum - Next Level Week</span>
                         <span className="text-white-700 font-light text-sm mb-6">Aplicacao voltada para a realização de comentários em um Forum postado pelo usuário</span>
                         <div className="text-white-700/60 font-extralight text-xs">
                             <span className="mr-4">HTML</span>
