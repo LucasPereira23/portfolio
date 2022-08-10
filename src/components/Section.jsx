@@ -202,7 +202,7 @@ function Section () {
                             <span className="text-red-700"><FolderSimple size={48} /></span>
                             <a href="https://github.com/LucasPereira23/NLW" target="_blank"  className="text-white-500 cursor-pointer hover:text-red-500 transition-all duration-300 z-10"><GithubLogo size={26} /></a>
                         </div>
-                        <span htmlFor="card-h" className="peer-hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacao de Forum - Next Level Week</span>
+                        <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">Aplicacao de Forum - Next Level Week</span>
                         <span className="text-white-700 font-light text-sm mb-6">Aplicacao voltada para a realização de comentários em um Forum postado pelo usuário</span>
                         <div className="text-white-700/60 font-extralight text-xs">
                             <span className="mr-4">HTML</span>
