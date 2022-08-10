@@ -135,9 +135,9 @@ function Section () {
                             </div>
                             <div className="text-sm font-light flex flex-wrap items-center justify-between mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2  md:mb-4 lg:mb-0 z-20">
                                 <span>HTML</span>
-                                <span>React</span>
+                                <span className="mx-3">React</span>
                                 <span>TypeScript</span>
-                                <span>Tail Wind</span>
+                                <span className="mx-3">Tail Wind</span>
                                 <span>GraphCMS</span>
                             </div>
                             <div className="flex text-white-500 z-20">
