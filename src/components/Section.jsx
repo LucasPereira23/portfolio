@@ -34,7 +34,7 @@ function Section () {
                 <span className="text-red-500">Olá, meu nome é</span>
                 <h1 className="mt-6 sm-mobile:text-xl mobile:text-4xl sm:text-7xl text-7xl font-bold text-white-500">Lucas Pereira.</h1>
                 <h1 className="mobile:mt-3 sm:mt-6 mobile:text-4xl sm:text-7xl font-semibold text-white-700">Programador Web.</h1>
-                <span className="mobile:mt-6 sm:mt-10 sm-mobile:h-auto sm:h-20 sm-mobile:w-[100%] mobile:w-[100%]  sm:w-[550px] inline-block text-white-700 font-light">Sou um programador web que tem se especializado principalmente no Front-End. Atualmente frequento o 4º semestre de Análise e Desenvolvimento de Sistemas e busco uma primeira oportunidade na área.</span>
+                <span className="mobile:mt-6 sm:mt-10 sm-mobile:h-auto sm:h-20 sm-mobile:w-[100%] mobile:w-[100%]  sm:w-[550px] inline-block text-white-700 font-light">Sou um programador web que tem se especializado principalmente no Front-End. Atualmente frequento o 4º semestre de Análise e Desenvolvimento de Sistemas</span>
                 <a href="https://github.com/LucasPereira23?tab=repositories" target="_blank" className="flex items-center justify-center mt-10 sm-mobile:w-[80%] mobile:w-64 border-[1px] rounded-[4px] px-[22px] py-[16px] text-white-100 text-sm font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Confira meus projetos</a>
             </div>
 
@@ -47,14 +47,13 @@ function Section () {
                 <div className="flex sm-mobile:flex-col mobile:flex-col sm:flex-col md:flex-row">
                     <div className="flex flex-col mobile:w-[100%] sm:h-auto sm:w-[500px] md:w-[550px] xl: justify-between text-white-700 font-light">
                             <span className="mb-8">Oi! Meu nome é Lucas pereira e sou apaixonado em desenvolver.
-                             Atualmente estou cursando a faculdade. Desde o primeiro contato com a programação e tudo que a 
+                             Atualmente estou cursando a faculdade e sou estágiario Front-End. Desde o primeiro contato com a programação e tudo que a 
                              envolve tenho desenvolvido muita vontade de desenvolver e aprender. Meu foco tem sido o Front-End mas também busco me 
                              capacitar no Back-End.
                             </span>
 
                             <span>
-                            Me encontrei nessa área e estou me dedicando ao máximo para que possa ser apto e ter uma oportunidade de 
-                            trabalho, venho fazendo cursos e desenvolvendo sites por conta própria em todo tempo livre 
+                            Me encontrei nessa área e estou me dedicando ao máximo, venho fazendo cursos e desenvolvendo sites por conta própria em todo tempo livre 
                             que tenho.
                             </span>
 
@@ -268,7 +267,7 @@ function Section () {
                         <span className="">Contato</span>
                     </div>
                     <span className="flex items-center justify-center text-center mobile:text-4xl sm-mobile:text-3xl sm:text-5xl font-semibold text-white-700 mb-6">Entre em Contato</span>
-                    <span className="flex justify-center items-center text-center text-white-700/50 font-light mb-14">No momento busco por uma primeira oportunidade na área. Você pode entrar em contato comigo por e-mail :)</span>
+                    <span className="flex justify-center items-center text-center text-white-700/50 font-light mb-14">No momento não estou buscando vagas, mas você pode entrar em contato comigo por e-mail :)</span>
                     <a href="mailto:lucas_231200@hotmail.com" target="_blank" className="border-[1px] rounded-[4px] px-[28px] py-[16px] text-white-100 text-sm font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Fale Comigo</a>
                 </div>
 
