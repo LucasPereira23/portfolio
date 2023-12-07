@@ -3,6 +3,7 @@ import { ArrowSquareOut, FolderSimple, GithubLogo, InstagramLogo, LinkedinLogo }
 import ignite from '../images/ignite-wpp.png'
 import perfil from '../images/perfil.jpg'
 import pokemon from '../images/pokemon-wpp.png'
+import nlw from '../images/nlw.jpeg'
 
 Aos.init({
     duration: 1000,
@@ -126,8 +127,7 @@ function Section () {
                             </div>
 
                             <div className="sm:bg-transparent sm:text-left md:bg-[#40404d] md:text-right text-white-700 flex flex-col justify-between items-end h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%]  rounded-[4px] py-6 md:px-6 md:mb-4 lg:mb-0 text-sm  md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20">
-                                <span>Aplicação desenvolvida durante o Evento Ignite Lab da Rocket Seat. A aplicação tem a funcionalidade de
-                                exibir e organizar as aulas que os professores da plataforma postam pa os alunos.</span>
+                                <span>Esta aplicação foi desenvolvida durante o evento Ignite Lab da Rocket Seat. Sua funcionalidade principal reside em apresentar e estruturar as aulas compartilhadas pelos professores da plataforma para os alunos.</span>
                             </div>
                             <div className="text-sm font-light flex flex-wrap items-center justify-between mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2  md:mb-4 lg:mb-0 z-20">
                                 <span>HTML</span>
@@ -150,31 +150,29 @@ function Section () {
 
                 <div className="flex flex-row relative items-center justify-start ">
                         
-                    <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%]  xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
+                    <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%]  xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
                         <div id="link-img" className="absolute left-0 sm-mobile:block md:hidden"></div>
-                        <img className="sm-mobile:hidden md:block absolute xl:top-0 right-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px] object-cover" src={pokemon} alt="" />
-                        <div className=" h-[360px] mobile:w-[100%] sm:w-auto py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start md:items-start justify-between ">
+                        <img className="sm-mobile:hidden md:block absolute xl:top-0 right-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px] object-cover" src={nlw} alt="" />
+                        <div className=" h-[360px] mobile:w-[100%] sm:w-[100%] py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start md:items-start justify-between ">
 
                                 <div className="flex flex-col sm-mobile:items-start sm:items-start  md:items-start z-20">
                                     <span className="sm-mobile:text-[#dd2f2f] sm:text-[#dd2f2f] md:text-red-500 text-sm pb-1">Projeto Destaque</span>
-                                    <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="text-2xl sm:font-bold md:font-semi-bold text-white-500 hover:text-red-500 transition-all duration-300 md:mb-4 lg:mb-0">Site Pokedex</a>
+                                    <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="text-2xl sm:font-bold md:font-semi-bold text-white-500 hover:text-red-500 transition-all duration-300 md:mb-4 lg:mb-0">Next Level Week</a>
                                 </div>
 
                                 <div className="sm:bg-transparent sm:text-left md:bg-[#40404d] md:text-left text-white-700 flex flex-col justify-between items-end h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%]  rounded-[4px] py-6 md:px-6 md:mb-4 lg:mb-0 text-sm  md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20">
-                                    <span>Esta aplicacão está ainda em desenvolvimento. O objetivo dela é ser um site com todos os pokemons existentes e os atributos deles.
-                                        O usuário dela poderá se registrar salvar seus pokemons favoritos.
+                                    <span>A aplicação possui a capacidade de exibir e organizar as aulas disponibilizadas pelos professores da plataforma para os alunos.
                                     </span>
                                 </div>
                                 <div className="text-sm font-light flex flex-wrap items-center justify-start mobile:w-[100%] sm:w-[250px] text-white-700 md:mb-4 lg:mb-0 z-20">
                                     <span>HTML</span>
                                     <span className="mx-3">CSS</span>
-                                    <span className="mr-3">ReactJs</span>
-                                    <span>TailWind</span>
+                                    <span className="mr-3">JavaScript</span>
+                                    <span>SQLite</span>
                                 </div>
                                 <div className="flex text-white-500 z-20">
-                                    <a href="https://github.com/LucasPereira23/pokedex-application" target="_blank" className="mr-4 cursor-pointer hover:text-red-500 transition-all duration-300"><GithubLogo size={26}/></a>
+                                    <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="mr-4 cursor-pointer hover:text-red-500 transition-all duration-300"><GithubLogo size={26}/></a>
                                 </div>
-
 
                         </div>
                     </div>
