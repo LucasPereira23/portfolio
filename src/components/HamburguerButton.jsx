@@ -13,10 +13,10 @@ function HamburguerButton (){
     return (
 
         <div className="md:hidden h-[100vh] absolute top-0 right-0">
-            <div className="" class={active ? 'icon2 iconActive2' : 'icon2'} onClick={ToggleMode}>
-                <div  class='hamburguer2 hamburguerIcon2'></div>
+            <div className={active ? 'icon2 iconActive2' : 'icon2'} onClick={ToggleMode}>
+                <div  className='hamburguer2 hamburguerIcon2'></div>
             </div>
-            <div className="h-full flex items-center justify-center" class={active ? 'menu2 menuOpen2' : 'menu2 menuClose2'}>
+            <div className={active ? 'menu2 menuOpen2 h-full flex items-center justify-center' : 'menu2 menuClose2 h-full flex items-center justify-center'}>
                 <div>
                     <ul>
                         <li>
@@ -53,7 +53,7 @@ function HamburguerButton (){
                             </Link>
                         </li>
                         <li className="">
-                            <a href={pdf} without rel="noopener noreferrer" target="_blank"  className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
+                            <a href={pdf} without="true" rel="noopener noreferrer" target="_blank"  className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
                         </li>
 
                     </ul>

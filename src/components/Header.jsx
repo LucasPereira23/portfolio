@@ -2,6 +2,7 @@ import AOS from 'aos';
 import HamburguerButton from './HamburguerButton';
 import { Link, animateScroll as scroll } from "react-scroll";
 import pdf from '../assets/curriculo.pdf' 
+import { useEffect, useState } from 'react';
 
 AOS.init({
   duration: 1000,
@@ -10,30 +11,32 @@ AOS.init({
 
 
 function Header() {
-  const body = document.body;
-  let lastScroll = 0;
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
-  window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset
+  useEffect(() => {
+    const body = document.body;
+    let lastScroll = 0;
 
-    if(currentScroll <= 0) {
-      body.classList.remove("scroll-up")
-    }
+    const handleScroll = () => {
+      const currentScroll = window.pageYOffset;
 
-    if(currentScroll > lastScroll && !body.classList.contains("scroll-down")){
-      body.classList.remove("scroll-up")
-      body.classList.add("scroll-down")
-    }
+      if (isMenuOpen) {
+        return;
+      }
 
-    if(currentScroll < lastScroll && body.classList.contains("scroll-down")){
-      body.classList.remove("scroll-down")
-      body.classList.add("scroll-up")
-    }
+      if (currentScroll <= 0) {
+        body.classList.remove('scroll-up');
+      }
 
-    lastScroll = currentScroll;
-  })
+      lastScroll = currentScroll;
+    };
 
+    window.addEventListener('scroll', handleScroll);
 
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isMenuOpen]);
 
   return (
     <div data-aos="fade-in">
@@ -75,10 +78,10 @@ function Header() {
           </Link>
         </li>
         <li className="list-none ml-4">
-            <a href={pdf} without rel="noopener noreferrer" target="_blank" className="border-[1px] rounded-[4px] px-[18px] py-[10px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
+            <a href={pdf} without="true" rel="noopener noreferrer" target="_blank" className="border-[1px] rounded-[4px] px-[18px] py-[10px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
         </li>
       </ul>
-      <HamburguerButton />
+        <HamburguerButton onClick={() => setIsMenuOpen(!isMenuOpen)} />
     </div>
 
     </div>
