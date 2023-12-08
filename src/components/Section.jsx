@@ -147,7 +147,7 @@ function Section () {
                 <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="text-2xl sm:font-bold md:font-semi-bold text-white-500 hover:text-red-500 transition-all duration-300 md:mb-4 lg:mb-0">Next Level Week</a>
               </div>
               <div className="sm:bg-transparent sm:text-left md:bg-[#40404d] md:text-left text-white-700 flex flex-col justify-between items-end h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%]  rounded-[4px] py-6 md:px-6 md:mb-4 lg:mb-0 text-sm  md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20">
-                <span>A aplicação possui a capacidade de exibir e organizar as aulas disponibilizadas pelos professores da plataforma para os alunos.
+                <span>A aplicação possui a capacidade realizar a postagem de comentários em um fórum publicado por um usuário.
                 </span>
               </div>
               <div className="text-sm font-light flex flex-wrap items-center justify-start mobile:w-[100%] sm:w-[250px] text-white-700 md:mb-4 lg:mb-0 z-20">
