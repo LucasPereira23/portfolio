@@ -85,7 +85,7 @@ function Section () {
                 </li>
                 <li>
                   <span className="text-red-500 mr-2">▸</span>
-                  <span>Liquid</span>
+                  <span>Next.js</span>
                 </li>
                 <li>
                   <span className="text-red-500 mr-2">▸</span>
