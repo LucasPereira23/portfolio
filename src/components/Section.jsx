@@ -3,6 +3,7 @@ import { FolderSimple, GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-
 import ignite from '../assets/images/ignite-wpp.png'
 import perfil from '../assets/images/perfil.jpg'
 import nlw from '../assets/images/nlw.jpeg'
+import pokesearch from '../assets/images/pokesearch.png'
 
 Aos.init({
   duration: 1000,
@@ -125,7 +126,7 @@ function Section () {
                 <span>HTML</span>
                 <span className="mx-3">React</span>
                 <span>TypeScript</span>
-                <span className="mx-3">Tail Wind</span>
+                <span className="mx-3">TailWind</span>
                 <span>GraphCMS</span>
               </div>
               <div className="flex text-white-500 z-20">
@@ -136,7 +137,7 @@ function Section () {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up"  className="mb-24 sm-mobile:mt-8 sm:mt-0 md:mt-0">
+        <div data-aos="fade-up"  className="mb-20 sm-mobile:mt-8 sm:mt-0 md:mt-0">
           <div className="flex flex-row relative items-center justify-start ">
             <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%]  xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
             <div id="link-img" className="absolute left-0 sm-mobile:block md:hidden"></div>
@@ -158,6 +159,33 @@ function Section () {
               </div>
               <div className="flex text-white-500 z-20">
                 <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="mr-4 cursor-pointer hover:text-red-500 transition-all duration-300">
+                  <GithubLogo size={26}/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up"  className="mb-20 sm-mobile:mt-8 sm:mt-0 md:mt-0">
+          <div className="flex flex-row relative items-center justify-end ">
+            <a href="https://pokesearch-lucaspereira23.vercel.app/" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 left-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
+            <div id="link-img-2" className="absolute left-0 sm-mobile:block md:hidden"></div>
+            <img className="sm-mobile:hidden md:block absolute xl:top-0 left-0 sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px]  xl:w-[700px] rounded-[3px] object-cover" src={pokesearch} alt="" />
+            <div className="h-[360px] sm-mobile:w-[100%] sm:w-auto py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start md:items-end justify-between ">
+              <div className="flex flex-col sm-mobile:items-start sm:items-start  md:items-end z-20">
+                <span className="sm-mobile:text-[#dd2f2f] sm:text-[#dd2f2f] md:text-red-500 text-sm pb-1">Projeto Destaque</span>
+                <a href="https://pokesearch-lucaspereira23.vercel.app/" target="_blank" className="text-2xl sm:font-bold md:font-semi-bold text-white-500 hover:text-red-500 transition-all duration-300 md:mb-4 lg:mb-0">PokeSearch V2</a>
+              </div>
+              <div className="sm:bg-transparent sm:text-left md:bg-[#40404d] md:text-right text-white-700 flex flex-col justify-between items-end h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%]  rounded-[4px] py-6 md:px-6 md:mb-4 lg:mb-0 text-sm  md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20">
+                <span>A aplicação é a segunda versão do projeto PokeSearch na qual o objetivo é que os usuários possam acessar todos os pokémons existentes, informações de cada um e as mais diversas informações sobre os pokémons.</span>
+              </div>
+              <div className="text-sm font-light flex flex-wrap items-center justify-between mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2  md:mb-4 lg:mb-0 z-20">
+                <span className="mx-3">React</span>
+                <span>Next.js</span>
+                <span className="mx-3">TypeScript</span>
+                <span>TailWindCSS</span>
+              </div>
+              <div className="flex text-white-500 z-20">
+                <a href="https://github.com/LucasPereira23/pokesearch-v2" target="_blank" className="mr-4 cursor-pointer hover:text-red-500 transition-all duration-300">
                   <GithubLogo size={26}/>
                 </a>
               </div>
@@ -222,7 +250,7 @@ function Section () {
             <div className="text-white-700/60 font-extralight text-xs">
               <span className="mr-4">React</span>
               <span className="mr-4">TypeScript</span>
-              <span>TailWind</span>
+              <span>TailWindCSS</span>
             </div>
           </a>
           <a href="https://github.com/LucasPereira23/portfolio" target="_blank" className="bg-[#40404d] cursor-pointer relative top-0 hover:top-[-10px] transition-all duration-300 flex flex-col mt-5 min-h-[300px] h-auto sm:w-[280px] md:w-[292px] lg:w-[366px] xl:w-80 px-7 py-8 rounded-[4px] shadow-lg shadow-gray-700/80">
@@ -240,9 +268,30 @@ function Section () {
             <div className="text-white-700/60 font-extralight text-xs">
               <span className="mr-4">React</span>
               <span className="mr-4">JavaScript</span>
-              <span>TailWind</span>
+              <span>TailWindCSS</span>
             </div>
           </a>
+
+          <a href="https://pokesearch-lucaspereira23.vercel.app/" target="_blank" className="bg-[#40404d] cursor-pointer relative top-0 hover:top-[-10px] transition-all duration-300 flex flex-col mt-5 min-h-[300px] h-auto sm:w-[280px] md:w-[292px] lg:w-[366px] xl:w-80 px-7 py-8 rounded-[4px] shadow-lg shadow-gray-700/80">
+            <div id="card-h"  className="z-10 peer absolute top-0 left-0 h-full w-full"></div>
+            <div className="flex flex-row justify-between items-center mb-6">
+              <span className="text-red-700">
+                <FolderSimple size={48} />
+              </span>
+              <a href="https://github.com/LucasPereira23/pokesearch-v2" target="_blank" className="text-white-500 cursor-pointer hover:text-red-500 transition-all duration-300 z-10">
+                <GithubLogo size={26} />
+              </a>
+            </div>
+            <span htmlFor="card-h" className="peer-hover:text-red-500 hover:text-red-500 transition-all duration-300 text-white-500 text-lg font-semibold mb-2 z-10">PokeSearch V2 - Aplicação Pokedex</span>
+            <span className="text-white-700 font-light text-sm mb-6">Segunda versão da PokeSearch com novas tecnologias e features para ver mais detalhes dos pokémons</span>
+            <div className="text-white-700/60 font-extralight text-xs">
+              <span className="mr-4">React</span>
+              <span className="mr-4">Next.js</span>
+              <span className="mr-4">TypeScript</span>
+            </div>
+          </a>
+          <div className="opacity-0 bg-[#40404d] relative top-0 hover:top-[-10px] transition-all duration-300 flex flex-col h-0 sm:w-[280px] md:w-[292px] lg:w-[366px] xl:w-80  rounded-[4px] shadow-lg shadow-gray-700/80">
+          </div>
         </div>
       </div>
       <div id="content-contact" data-aos="fade-up" className=" flex flex-col justify-center items-center mb-36">
