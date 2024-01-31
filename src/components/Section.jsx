@@ -137,7 +137,7 @@ function Section () {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up"  className="sm-mobile:mt-8 sm:mt-0 md:mt-0">
+        <div data-aos="fade-up"  className="sm:mb-14 md:mb-20 sm-mobile:mt-8 sm:mt-0 md:mt-0">
           <div className="flex flex-row relative items-center justify-start ">
             <a href="https://github.com/LucasPereira23/NLW" target="_blank" className="sm-mobile:bg-red-700/70 sm:bg-red-700/70  md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 right-0 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%]  xl:h-[400px]  xl:w-[700px]  rounded-[3px] z-10"></a>
             <div id="link-img" className="absolute left-0 sm-mobile:block md:hidden"></div>
