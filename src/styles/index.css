@@ -20,6 +20,10 @@ a, h5, button{
   font-family: 'Fira Code', monospace;
 }
 
+span.link-font{
+  font-family: 'Fira Code', monospace;
+}
+
 #link-img{
   background-image: url(../images/nlw.jpeg);
   height: 100%;
