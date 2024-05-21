@@ -64,11 +64,23 @@ function Header() {
               smooth={true}
               offset={-95}
               duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">
-            Projetos
+              React
             </Link>
           </li>
           <li className="list-none text-white-100 py-0 px-5 text-sm font-light ">
             <span className="link-font mr-2 text-red-500 font-normal">03.</span>
+            <Link
+              activeClass="active"
+              to="content-shopify"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">
+              Shopify
+            </Link>
+          </li>
+          <li className="list-none text-white-100 py-0 px-5 text-sm font-light ">
+            <span className="link-font mr-2 text-red-500 font-normal">04.</span>
             <Link
               activeClass="active"
               to="content-contact"
