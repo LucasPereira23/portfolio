@@ -49,7 +49,7 @@ function HamburguerButton (){
                 smooth={true}
                 offset={-100}
                 duration={500}>
-              Contato
+              Shopify
               </Link>
             </li>
             <li>
