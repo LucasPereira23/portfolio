@@ -37,11 +37,23 @@ function HamburguerButton (){
                 smooth={true}
                 offset={-95}
                 duration={500}>
-              Projetos
+              React
               </Link>
             </li>
             <li>
               <h5>03.</h5>
+              <Link className="cursor-pointer"
+                activeClass="active"
+                to="content-shopify"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
+              Contato
+              </Link>
+            </li>
+            <li>
+              <h5>04.</h5>
               <Link className="cursor-pointer"
                 activeClass="active"
                 to="content-contact"
