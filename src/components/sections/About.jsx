@@ -11,10 +11,10 @@ function About () {
       <div className="flex sm-mobile:flex-col mobile:flex-col sm:flex-col md:flex-row">
         <div className="flex flex-col mobile:w-[100%] sm:h-auto sm:w-[500px] md:w-[550px] xl: justify-between text-white-700 font-light">
           <span className="mb-8">
-            Olá, sou Lucas Pereira e minha paixão é o desenvolvimento. Sou formado em Análise e Desenvolvimento de Sistemas e, desde o início, minha jornada na programação despertou uma vontade constante de aprender e evoluir. Embora meu principal foco seja o Front-End, tenho buscado expandir minha expertise também no Back-End
+            Olá, sou Lucas Pereira, e minha paixão é o desenvolvimento. Tenho formação em Análise e Desenvolvimento de Sistemas e, desde o início da minha jornada na programação, fui movido por um desejo constante de aprender e evoluir. Abracei completamente o desenvolvimento Full-Stack, aprimorando minhas habilidades tanto na criação de interfaces de usuário quanto no desenvolvimento e otimização de sistemas Back-End.
           </span>
           <span>
-            Encontrei na área de desenvolvimento o meu verdadeiro interesse e tenho me dedicado intensamente. Aproveito cada momento livre para fazer cursos e desenvolver sites por conta própria, sempre em busca de aprimoramento constante.
+            Atualmente, trabalho como Desenvolvedor Full-Stack, atuando em projetos que exigem uma abordagem completa, desde a criação de experiências de usuário fluidas até a implementação de lógicas de sistema eficientes e escaláveis. Estou sempre em busca de explorar novas tecnologias, aprimorar minha capacidade de resolução de problemas e desenvolver soluções inovadoras que gerem impacto.
           </span>
           <div className="flex sm-mobile:flex-col mobile:flex-row sm:flex-row mobile:text-sm sm:text-base font-thin mt-4 sm-mobile:mb-10 mobile:mb-12 sm:mb-12 md:mb-10">
             <ul className="flex flex-col mr-12">
@@ -24,33 +24,7 @@ function About () {
               </li>
               <li>
                 <span className="text-red-500 mr-2">▸</span>
-                <span>JavaScript</span>
-              </li>
-              <li>
-                <span className="text-red-500 mr-2">▸</span>
-                <span>Shopify</span>
-              </li>
-              <li>
-                <span className="text-red-500 mr-2">▸</span>
-                <span>Next.js</span>
-              </li>
-              <li>
-                <span className="text-red-500 mr-2">▸</span>
-                <span>Git</span>
-              </li>
-            </ul>
-            <ul className="flex flex-col">
-              <li>
-                  <span className="text-red-500 mr-2">▸</span>
-                  <span>Vue.js</span>
-                </li>
-              <li>
-                <span className="text-red-500 mr-2">▸</span>
-                <span>Jest</span>
-              </li>
-              <li>
-                <span className="text-red-500 mr-2">▸</span>
-                <span>TypeScript</span>
+                <span>Vue.js</span>
               </li>
               <li>
                 <span className="text-red-500 mr-2">▸</span>
@@ -58,7 +32,33 @@ function About () {
               </li>
               <li>
                 <span className="text-red-500 mr-2">▸</span>
+                <span>Shopify</span>
+              </li>
+              <li>
+                <span className="text-red-500 mr-2">▸</span>
+                <span>Python</span>
+              </li>
+            </ul>
+            <ul className="flex flex-col">
+              <li>
+                  <span className="text-red-500 mr-2">▸</span>
+                  <span>Next.js</span>
+                </li>
+              <li>
+                <span className="text-red-500 mr-2">▸</span>
                 <span>Docker</span>
+              </li>
+              <li>
+                <span className="text-red-500 mr-2">▸</span>
+                <span>TypeScript</span>
+              </li>
+              <li>
+                <span className="text-red-500 mr-2">▸</span>
+                <span>Jest</span>
+              </li>
+              <li>
+                <span className="text-red-500 mr-2">▸</span>
+                <span>Git</span>
               </li>
             </ul>
           </div>
