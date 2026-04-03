@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "react": "React",
+    "shopify": "Shopify",
+    "contact": "Contato",
+    "resume": "Currículo"
+  },
+  "intro": {
+    "greeting": "Olá, meu nome é",
+    "name": "Lucas Pereira.",
+    "role": "Desenvolvedor Full-Stack.",
+    "description": "Desenvolvedor full-stack, com experiência em front-end e back-end. Comprometido em entregar soluções de qualidade com foco no que realmente importa para o projeto.",
+    "cta": "Confira meus projetos"
+  },
+  "about": {
+    "number": "01.",
+    "title": "Sobre mim",
+    "p1": "Olá, sou Lucas Pereira, e minha paixão é o desenvolvimento. Tenho formação em Análise e Desenvolvimento de Sistemas e, desde o início da minha jornada na programação, fui movido por um desejo constante de aprender e evoluir. Abracei completamente o desenvolvimento Full-Stack, aprimorando minhas habilidades tanto na criação de interfaces de usuário quanto no desenvolvimento e otimização de sistemas Back-End.",
+    "p2": "Atualmente, trabalho como Desenvolvedor Full-Stack, atuando em projetos que exigem uma abordagem completa, desde a criação de experiências de usuário fluidas até a implementação de lógicas de sistema eficientes e escaláveis. Estou sempre em busca de explorar novas tecnologias, aprimorar minha capacidade de resolução de problemas e desenvolver soluções inovadoras que gerem impacto."
+  },
+  "reactProjects": {
+    "number": "02.",
+    "title": "Projetos - React",
+    "featured": "Projeto Destaque",
+    "capi": {
+      "name": "Capí",
+      "description": "Uma inteligência artificial projetada para processar, interpretar e analisar dados sobre as mudanças climáticas com base em relatórios científicos e estudos, fornecendo insights precisos para combater a desinformação."
+    },
+    "ignite": {
+      "name": "Ignite Lab-React",
+      "description": "Aplicação desenvolvida durante o evento Ignite Lab da Rocketseat. Sua funcionalidade principal consiste em apresentar e estruturar as aulas compartilhadas pelos professores da plataforma para os alunos."
+    },
+    "pokesearch": {
+      "name": "PokeSearch V2",
+      "description": "A aplicação é a segunda versão do projeto PokeSearch na qual o objetivo é que os usuários possam acessar todos os pokémons existentes, informações de cada um e as mais diversas informações sobre os pokémons."
+    }
+  },
+  "shopifyProjects": {
+    "number": "03.",
+    "title": "Projetos - Shopify",
+    "featured": "Projeto Destaque",
+    "bougie": {
+      "name": "Bougie Bottle",
+      "description": "Criação e aprimoramento de vários recursos para melhorar a experiência geral do usuário e trazer o melhor da marca e a melhor aparência visual para sua loja."
+    },
+    "aila": {
+      "name": "Aila",
+      "description": "Aila, um esmalte, é uma marca com o propósito de incorporar um design mais suave e limpo para refletir a delicadeza de seus produtos."
+    },
+    "diamond": {
+      "name": "Diamond Matress",
+      "description": "A Diamond Mattress oferece uma extensa coleção de colchões e roupas de cama requintados, combinando tecnologia de ponta com design atemporal para um conforto incomparável."
+    }
+  },
+  "gitProjects": {
+    "title": "Todos os Projetos",
+    "viewFiles": "Veja os arquivos",
+    "rocketq": {
+      "name": "Fórum - Rocket.q",
+      "description": "Aplicação voltada para a realização de comentários em um fórum postado pelo usuário"
+    },
+    "igniteLab": {
+      "name": "Videoaulas - Ignite Lab",
+      "description": "Aplicação com banco de dados para a visualização de videoaulas postadas pelos professores"
+    },
+    "pokedex": {
+      "name": "PokeSearch - Aplicação Pokedex",
+      "description": "Pokédex para que os usuários possam ver informações de todos os Pokémon existentes"
+    },
+    "portfolio": {
+      "name": "Portfolio pessoal - Lucas Pereira",
+      "description": "Meu Portfolio pessoal para apresentação dos projetos já realizados"
+    },
+    "pokesearchV2": {
+      "name": "PokeSearch V2 - Aplicação Pokedex",
+      "description": "Segunda versão da PokeSearch com novas tecnologias e features para ver mais detalhes dos pokémons"
+    }
+  },
+  "contact": {
+    "number": "04.",
+    "label": "Contato",
+    "title": "Entre em Contato",
+    "description": "Você pode entrar em contato comigo por e-mail :)",
+    "cta": "Fale comigo"
+  },
+  "footer": {
+    "builtBy": "Built by Lucas Pereira"
+  }
+}

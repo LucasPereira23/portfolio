@@ -70,21 +70,22 @@ span.link-font{
 }
 
 .icon2{
-  position: absolute;
-  top: 10px;
-  right: 25px;
+  position: relative;
+  top: 0;
+  right: 0;
   height: 50px;
   width: 65px;
   cursor: pointer;
+  z-index: 50;
 }
 
 .hamburguer2{
   display: flex;
   justify-content: end;
-  z-index: 20;
+  z-index: 50;
   position: absolute;
-  top: 26px;
-  right: 26px;
+  top: 22px;
+  right: 14px;
   width: 30px;
   height: 6px;
   background: #a92727;
@@ -144,10 +145,10 @@ span.link-font{
 
 
 .menu2.menuOpen2{
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  width: 400px;
+  width: 75%;
   height: 100%;
   background: #40404d;
   box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
@@ -158,7 +159,7 @@ span.link-font{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  z-index: 40;
 }
 
 
@@ -191,10 +192,10 @@ span.link-font{
  
 
 .menu2.menuClose2{
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: -400px;
-  width: 400px;
+  right: -75%;
+  width: 75%;
   height: 100%;
   background: #40404d;
   box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
@@ -205,7 +206,7 @@ span.link-font{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  z-index: 40;
 }
 
 
@@ -240,8 +241,36 @@ span.link-font{
  @media (min-width: 1px) and (max-width: 450px)
 {
   .menu2.menuOpen2{
-    width: 250px;
+    width: 80%;
   }
+  .menu2.menuClose2{
+    right: -80%;
+    width: 80%;
+  }
+}
+
+.menu-backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 30;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-backdrop.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+body.menu-open{
+  overflow: hidden;
 }
 
 #link-img{

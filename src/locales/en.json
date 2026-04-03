@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "About",
+    "react": "React",
+    "shopify": "Shopify",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "intro": {
+    "greeting": "Hi, my name is",
+    "name": "Lucas Pereira.",
+    "role": "Full-Stack Developer.",
+    "description": "Full-stack developer with experience in front-end and back-end. Committed to delivering quality solutions focused on what really matters for the project.",
+    "cta": "Check out my projects"
+  },
+  "about": {
+    "number": "01.",
+    "title": "About me",
+    "p1": "Hi, I'm Lucas Pereira, and my passion is development. I have a degree in Systems Analysis and Development, and since the beginning of my programming journey, I've been driven by a constant desire to learn and evolve. I fully embraced Full-Stack development, honing my skills in both user interface creation and Back-End system development and optimization.",
+    "p2": "Currently, I work as a Full-Stack Developer, working on projects that require a complete approach, from creating fluid user experiences to implementing efficient and scalable system logic. I'm always looking to explore new technologies, improve my problem-solving ability, and develop innovative solutions that make an impact."
+  },
+  "reactProjects": {
+    "number": "02.",
+    "title": "Projects - React",
+    "featured": "Featured Project",
+    "capi": {
+      "name": "Capí",
+      "description": "An artificial intelligence designed to process, interpret, and analyze data about climate change based on scientific reports and studies, providing precise insights to combat misinformation."
+    },
+    "ignite": {
+      "name": "Ignite Lab-React",
+      "description": "Application developed during Rocketseat's Ignite Lab event. Its main functionality is to present and structure the lessons shared by the platform's teachers for students."
+    },
+    "pokesearch": {
+      "name": "PokeSearch V2",
+      "description": "The application is the second version of the PokeSearch project, where the goal is for users to access all existing Pokémon, information about each one, and the most diverse information about Pokémon."
+    }
+  },
+  "shopifyProjects": {
+    "number": "03.",
+    "title": "Projects - Shopify",
+    "featured": "Featured Project",
+    "bougie": {
+      "name": "Bougie Bottle",
+      "description": "Creation and improvement of various features to enhance the overall user experience and bring the best of the brand and the best visual appearance to their store."
+    },
+    "aila": {
+      "name": "Aila",
+      "description": "Aila, a nail polish brand, is a brand with the purpose of incorporating a softer and cleaner design to reflect the delicacy of its products."
+    },
+    "diamond": {
+      "name": "Diamond Matress",
+      "description": "Diamond Mattress offers an extensive collection of exquisite mattresses and bedding, combining cutting-edge technology with timeless design for unparalleled comfort."
+    }
+  },
+  "gitProjects": {
+    "title": "All Projects",
+    "viewFiles": "View files",
+    "rocketq": {
+      "name": "Forum - Rocket.q",
+      "description": "Application designed for making comments on a forum posted by the user"
+    },
+    "igniteLab": {
+      "name": "Video Lessons - Ignite Lab",
+      "description": "Application with database for viewing video lessons posted by teachers"
+    },
+    "pokedex": {
+      "name": "PokeSearch - Pokedex App",
+      "description": "Pokédex so that users can see information about all existing Pokémon"
+    },
+    "portfolio": {
+      "name": "Personal Portfolio - Lucas Pereira",
+      "description": "My personal portfolio to showcase completed projects"
+    },
+    "pokesearchV2": {
+      "name": "PokeSearch V2 - Pokedex App",
+      "description": "Second version of PokeSearch with new technologies and features to see more Pokémon details"
+    }
+  },
+  "contact": {
+    "number": "04.",
+    "label": "Contact",
+    "title": "Get in Touch",
+    "description": "You can reach me by email :)",
+    "cta": "Say Hello"
+  },
+  "footer": {
+    "builtBy": "Built by Lucas Pereira"
+  }
+}
