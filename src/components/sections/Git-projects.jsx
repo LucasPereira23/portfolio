@@ -44,7 +44,7 @@ function GitProjects() {
       </div>
       <div
         data-aos="fade-up"
-        className="mobile:min-w-[290px] mobile:max-w-[450px] sm:max-w-[575px] sm:w-[575px] md:w-[600px] md:max-w-[600px] lg:w-[750px] lg:max-w-[750px] xl:w-[1000px] xl:max-w-[1000px] flex flex-wrap items-center justify-between"
+        className="mobile:min-w-[290px] mobile:max-w-[100%] sm:max-w-[575px] sm:w-[575px] md:w-[600px] md:max-w-[600px] lg:w-[750px] lg:max-w-[750px] xl:w-[1000px] xl:max-w-[1000px] flex flex-wrap items-center justify-between"
       >
         {projects.map((project) => (
           <ProjectCardSmall

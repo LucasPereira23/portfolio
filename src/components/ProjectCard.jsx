@@ -4,7 +4,7 @@ function ProjectCard({ image, name, description, techs, links, align = 'right', 
   const isRight = align === 'right';
 
   return (
-    <div className="flex flex-row relative items-center justify-end sm:mb-14 md:mb-20 sm-mobile:mt-8 sm:mt-0 md:mt-0" style={{ justifyContent: isRight ? 'flex-end' : 'flex-start' }}>
+    <div className={`flex flex-row relative items-center sm-mobile:mb-5 sm:mb-5 md:mb-20 sm-mobile:mt-0 sm:mt-0 md:mt-0 ${isRight ? 'md:justify-end' : 'md:justify-start'}`}>
       <a
         href={links.live || links.github}
         target="_blank"
@@ -17,7 +17,7 @@ function ProjectCard({ image, name, description, techs, links, align = 'right', 
         alt={name}
       />
       <div
-        className={`h-[360px] ${isRight ? 'sm-mobile:w-[100%] sm:w-auto' : 'mobile:w-[100%] sm:w-[100%]'} py-10 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} justify-between`}
+        className={`sm-mobile:h-auto sm:h-auto md:h-[360px] ${isRight ? 'sm-mobile:w-[100%] sm:w-auto' : 'mobile:w-[100%] sm:w-[100%]'} py-7 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} justify-between gap-y-6 md:gap-y-0`}
       >
         <div className={`flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} z-20`}>
           <span className="sm-mobile:text-[#dd2f2f] sm:text-[#dd2f2f] md:text-red-500 text-sm pb-1">
@@ -32,15 +32,15 @@ function ProjectCard({ image, name, description, techs, links, align = 'right', 
           </a>
         </div>
         <div
-          className={`sm:bg-transparent sm:text-left md:bg-[#40404d] ${isRight ? 'md:text-right' : 'md:text-left'} text-white-700 flex flex-col justify-between items-end h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%] rounded-[4px] py-6 md:px-6 md:mb-4 lg:mb-0 text-sm md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20`}
+          className={`sm:bg-transparent sm:text-left md:bg-[#40404d] ${isRight ? 'md:text-right' : 'md:text-left'} text-white-700 flex flex-col justify-between sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} h-[auto] md:w-[50%] lg:w-[50%] xl:w-[46%] rounded-[4px] sm-mobile:py-0 sm:py-0 md:py-6 md:px-6 md:mb-4 lg:mb-0 text-sm md:shadow-lg shadow-gray-700/30 hover:shadow-gray-700/50 transition-all duration-300 z-20`}
         >
           <span>{description}</span>
         </div>
         <div
-          className={`text-sm font-light flex flex-wrap items-center ${isRight ? 'justify-between' : 'justify-start'} mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2 md:mb-4 lg:mb-0 z-20`}
+          className={`text-sm font-light flex flex-wrap items-center gap-y-2 gap-x-3 justify-start ${isRight ? 'md:justify-between' : 'md:justify-start'} mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2 md:mb-4 lg:mb-0 z-20`}
         >
-          {techs.map((tech, index) => (
-            <span key={tech} className={index > 0 && index < techs.length ? 'mx-3' : ''}>
+          {techs.map((tech) => (
+            <span key={tech}>
               {tech}
             </span>
           ))}

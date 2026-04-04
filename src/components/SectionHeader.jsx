@@ -5,7 +5,7 @@ function SectionHeader({ number, title }) {
       <span className="flex justify-center min-w-[90px] mr-3 text-white-500 font-semibold mobile:text-lg sm:text-2xl">
         {title}
       </span>
-      <span className="sm-mobile:w-[20%] sm:w-60 md:w-[300px] lg:w-[320px] border-b-[1px] border-white-700/50"></span>
+      <span className="sm-mobile:flex-1 sm:w-60 md:w-[300px] lg:w-[320px] border-b-[1px] border-white-700/50"></span>
     </div>
   );
 }

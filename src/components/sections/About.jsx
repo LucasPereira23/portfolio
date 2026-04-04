@@ -10,7 +10,7 @@ function About() {
   const { t } = useTranslation();
 
   return (
-    <div data-aos="fade-up" id="content-about" className="flex flex-col w-auto justify-between mb-36 mobile:pl-0 sm:pl-12">
+    <div data-aos="fade-up" id="content-about" className="flex flex-col w-auto justify-between mb-36">
       <div className="flex items-center mb-10">
         <a className="text-red-500 text-xl">{t('about.number')}</a>
         <span className="flex justify-center min-w-[135px] mr-3 text-white-500 font-semibold text-2xl">
@@ -19,7 +19,7 @@ function About() {
         <span className="w-80 border-b-[1px] border-white-700/50"></span>
       </div>
       <div className="flex sm-mobile:flex-col mobile:flex-col sm:flex-col md:flex-row">
-        <div className="flex flex-col mobile:w-[100%] sm:h-auto sm:w-[500px] md:w-[550px] xl: justify-between text-white-700 font-light">
+        <div className="flex flex-col mobile:w-[100%] sm:h-auto sm:w-[500px] md:w-[700px] xl: justify-between text-white-700 font-light">
           <span className="mb-8">{t('about.p1')}</span>
           <span>{t('about.p2')}</span>
           <div className="flex sm-mobile:flex-col mobile:flex-row sm:flex-row mobile:text-sm sm:text-base font-thin mt-4 sm-mobile:mb-10 mobile:mb-12 sm:mb-12 md:mb-10">
