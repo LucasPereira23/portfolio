@@ -3,6 +3,7 @@
     "about": "About",
     "react": "React",
     "shopify": "Shopify",
+    "webflow": "Webflow",
     "contact": "Contact",
     "resume": "Resume"
   },
@@ -10,7 +11,7 @@
     "greeting": "Hi, my name is",
     "name": "Lucas Pereira.",
     "role": "Full-Stack Developer.",
-    "description": "Full-stack developer with experience in front-end and back-end. Committed to delivering quality solutions focused on what really matters for the project.",
+    "description": "Full-stack developer committed to delivering quality solutions focused on what really matters for the project.",
     "cta": "Check out my projects"
   },
   "about": {
@@ -30,6 +31,10 @@
     "ignite": {
       "name": "Ignite Lab-React",
       "description": "Application developed during Rocketseat's Ignite Lab event. Its main functionality is to present and structure the lessons shared by the platform's teachers for students."
+    },
+    "matanativa": {
+      "name": "Mata Nativa",
+      "description": "A digital experimentation laboratory dedicated to impactful sponsored content, combining engaging narratives, design, and data science to communicate scientific stories and drive positive change for Brazilian biomes."
     },
     "pokesearch": {
       "name": "PokeSearch V2",
@@ -77,8 +82,25 @@
       "description": "Second version of PokeSearch with new technologies and features to see more Pokémon details"
     }
   },
-  "contact": {
+  "webflowProjects": {
     "number": "04.",
+    "title": "Projects - Webflow",
+    "featured": "Featured Project",
+    "cypris": {
+      "name": "Cypris AI",
+      "description": "An AI platform designed to unify global innovation data and internal knowledge, enabling R&D and IP teams to cut research time, make stronger decisions, and move faster with compounded intelligence."
+    },
+    "alliance": {
+      "name": "Alliance Solution",
+      "description": "A technology partner specialized in construction and real estate software, providing certified Sage solutions and dedicated support to improve visibility, reduce risk, and scale with confidence."
+    },
+    "brighton": {
+      "name": "Build With Brighton",
+      "description": "A locally owned homebuilder trusted along Utah's Wasatch Front, offering thoughtfully designed communities and quick move-in options, backed by a management team with over 100 years of combined experience."
+    }
+  },
+  "contact": {
+    "number": "05.",
     "label": "Contact",
     "title": "Get in Touch",
     "description": "You can reach me by email :)",

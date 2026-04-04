@@ -37,7 +37,7 @@ function ProjectCard({ image, name, description, techs, links, align = 'right', 
           <span>{description}</span>
         </div>
         <div
-          className={`text-sm font-light flex flex-wrap items-center gap-y-2 gap-x-3 justify-start ${isRight ? 'md:justify-between' : 'md:justify-start'} mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2 md:mb-4 lg:mb-0 z-20`}
+          className={`text-sm font-light flex flex-wrap items-center gap-y-2 gap-x-3 justify-start ${isRight ? 'md:justify-end' : 'md:justify-start'} mobile:w-[100%] sm:w-[340px] text-white-700 sm-mobile:mb-2 md:mb-4 lg:mb-0 z-20`}
         >
           {techs.map((tech) => (
             <span key={tech}>

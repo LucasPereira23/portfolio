@@ -3,6 +3,7 @@
     "about": "Sobre",
     "react": "React",
     "shopify": "Shopify",
+    "webflow": "Webflow",
     "contact": "Contato",
     "resume": "Currículo"
   },
@@ -10,7 +11,7 @@
     "greeting": "Olá, meu nome é",
     "name": "Lucas Pereira.",
     "role": "Desenvolvedor Full-Stack.",
-    "description": "Desenvolvedor full-stack, com experiência em front-end e back-end. Comprometido em entregar soluções de qualidade com foco no que realmente importa para o projeto.",
+    "description": "Desenvolvedor full-stack comprometido em entregar soluções de qualidade com foco no que realmente importa para o projeto.",
     "cta": "Confira meus projetos"
   },
   "about": {
@@ -30,6 +31,10 @@
     "ignite": {
       "name": "Ignite Lab-React",
       "description": "Aplicação desenvolvida durante o evento Ignite Lab da Rocketseat. Sua funcionalidade principal consiste em apresentar e estruturar as aulas compartilhadas pelos professores da plataforma para os alunos."
+    },
+    "matanativa": {
+      "name": "Mata Nativa",
+      "description": "Um laboratório de experimentação digital dedicado a conteúdo patrocinado de impacto, combinando narrativas envolventes, design e ciência de dados para comunicar histórias científicas e gerar mudanças positivas nos biomas brasileiros."
     },
     "pokesearch": {
       "name": "PokeSearch V2",
@@ -77,8 +82,25 @@
       "description": "Segunda versão da PokeSearch com novas tecnologias e features para ver mais detalhes dos pokémons"
     }
   },
-  "contact": {
+  "webflowProjects": {
     "number": "04.",
+    "title": "Projetos - Webflow",
+    "featured": "Projeto Destaque",
+    "cypris": {
+      "name": "Cypris AI",
+      "description": "Uma plataforma de IA projetada para unificar dados globais de inovação e conhecimento interno, permitindo que equipes de P&D e PI reduzam o tempo de pesquisa e tomem decisões mais sólidas com inteligência composta."
+    },
+    "alliance": {
+      "name": "Alliance Solution",
+      "description": "Uma parceira tecnológica especializada em software para construção civil e imóveis, oferecendo soluções Sage certificadas e suporte dedicado para melhorar a visibilidade, reduzir riscos e escalar com confiança."
+    },
+    "brighton": {
+      "name": "Build With Brighton",
+      "description": "Uma construtora local de confiança na região de Wasatch Front, Utah, que oferece comunidades bem planejadas e opções de entrega rápida, apoiada por uma equipe com mais de 100 anos de experiência combinada."
+    }
+  },
+  "contact": {
+    "number": "05.",
     "label": "Contato",
     "title": "Entre em Contato",
     "description": "Você pode entrar em contato comigo por e-mail :)",

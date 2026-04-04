@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import SectionHeader from '../SectionHeader';
 import ProjectCard from '../ProjectCard';
-import ignite from '../../assets/images/ignite-wpp.png';
+import matanativa from '../../assets/images/mata_nativa.png';
 import pokesearch from '../../assets/images/pokesearch.png';
 import capi from '../../assets/images/capi.png';
 
@@ -19,12 +19,12 @@ function ReactProjects() {
       align: 'right',
     },
     {
-      key: 'ignite',
-      image: ignite,
-      name: t('reactProjects.ignite.name'),
-      description: t('reactProjects.ignite.description'),
-      techs: ['React', 'TypeScript', 'TailWind', 'GraphCMS'],
-      links: { github: 'https://github.com/LucasPereira23/ignite-lab-react' },
+      key: 'matanativa',
+      image: matanativa,
+      name: t('reactProjects.matanativa.name'),
+      description: t('reactProjects.matanativa.description'),
+      techs: ['React', 'Next.js', 'TypeScript'],
+      links: { live: 'https://matanativa.art/en/' },
       align: 'left',
     },
     {

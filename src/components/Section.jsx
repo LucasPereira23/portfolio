@@ -4,6 +4,7 @@ import SocialLinks from './SocialLinks';
 import About from './sections/About';
 import ReactProjects from './sections/React-projects';
 import ShopifyProjects from './sections/Shopify-projects';
+import WebflowProjects from './sections/Webflow-projects';
 import GitProjects from './sections/Git-projects';
 import Contact from './sections/Contact';
 import Intro from './sections/Intro';
@@ -44,6 +45,7 @@ function Section() {
       <About />
       <ReactProjects />
       <ShopifyProjects />
+      <WebflowProjects />
       <GitProjects />
       <Contact />
     </div>

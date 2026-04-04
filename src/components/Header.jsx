@@ -65,7 +65,8 @@ function Header() {
     { number: '01.', to: 'content-about', offset: -150, label: t('nav.about') },
     { number: '02.', to: 'content-work', offset: -95, label: t('nav.react') },
     { number: '03.', to: 'content-shopify', offset: -100, label: t('nav.shopify') },
-    { number: '04.', to: 'content-contact', offset: -100, label: t('nav.contact') },
+    { number: '04.', to: 'content-webflow', offset: -100, label: t('nav.webflow') },
+    { number: '05.', to: 'content-contact', offset: -100, label: t('nav.contact') },
   ];
 
   return (
