@@ -29,7 +29,7 @@
     "featured": "Projeto Destaque",
     "capi": {
       "name": "Capí",
-      "description": "Uma inteligência artificial projetada para processar, interpretar e analisar dados sobre as mudanças climáticas com base em relatórios científicos e estudos, fornecendo insights precisos para combater a desinformação."
+      "description": "Um chatbot de IA apoiado pela Google News Initiative, desenvolvido para processar e interpretar dados climáticos de fontes confiáveis como o IPCC, fornecendo insights precisos para combater a desinformação climática no Brasil."
     },
     "ignite": {
       "name": "Ignite Lab-React",
