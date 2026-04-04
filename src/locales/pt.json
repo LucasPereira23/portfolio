@@ -1,9 +1,7 @@
 {
   "nav": {
     "about": "Sobre",
-    "react": "React",
-    "shopify": "Shopify",
-    "webflow": "Webflow",
+    "projects": "Projetos",
     "contact": "Contato",
     "resume": "Currículo"
   },
@@ -19,6 +17,11 @@
     "title": "Sobre mim",
     "p1": "Olá, sou Lucas Pereira, e minha paixão é o desenvolvimento. Tenho formação em Análise e Desenvolvimento de Sistemas e, desde o início da minha jornada na programação, fui movido por um desejo constante de aprender e evoluir. Abracei completamente o desenvolvimento Full-Stack, aprimorando minhas habilidades tanto na criação de interfaces de usuário quanto no desenvolvimento e otimização de sistemas Back-End.",
     "p2": "Atualmente, trabalho como Desenvolvedor Full-Stack, atuando em projetos que exigem uma abordagem completa, desde a criação de experiências de usuário fluidas até a implementação de lógicas de sistema eficientes e escaláveis. Estou sempre em busca de explorar novas tecnologias, aprimorar minha capacidade de resolução de problemas e desenvolver soluções inovadoras que gerem impacto."
+  },
+  "projects": {
+    "number": "02.",
+    "title": "Projetos",
+    "featured": "Projeto Destaque"
   },
   "reactProjects": {
     "number": "02.",
@@ -100,7 +103,7 @@
     }
   },
   "contact": {
-    "number": "05.",
+    "number": "03.",
     "label": "Contato",
     "title": "Entre em Contato",
     "description": "Você pode entrar em contato comigo por e-mail :)",

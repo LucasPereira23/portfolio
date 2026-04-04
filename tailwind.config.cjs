@@ -8,7 +8,8 @@ module.exports = {
       'sm-mobile': '0px',
       'mobile': '320px',
       'sm': '640px',
-      'md': '800px',
+      'md': '640px',
+      'tablet': '768px',
       'lg': '1025px',
       'xl': '1280px',
       '2xl': '1536px'

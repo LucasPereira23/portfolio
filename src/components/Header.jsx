@@ -63,15 +63,13 @@ function Header() {
 
   const navItems = [
     { number: '01.', to: 'content-about', offset: -150, label: t('nav.about') },
-    { number: '02.', to: 'content-work', offset: -95, label: t('nav.react') },
-    { number: '03.', to: 'content-shopify', offset: -100, label: t('nav.shopify') },
-    { number: '04.', to: 'content-webflow', offset: -100, label: t('nav.webflow') },
-    { number: '05.', to: 'content-contact', offset: -100, label: t('nav.contact') },
+    { number: '02.', to: 'content-work', offset: -95, label: t('nav.projects') },
+    { number: '03.', to: 'content-contact', offset: -100, label: t('nav.contact') },
   ];
 
   return (
     <div>
-      <div id="navbar" className="z-50 fixed w-full top-0 left-0 h-20 py-0 sm-mobile:px-4 mobile:px-10 md:px-24 box-border flex justify-between items-center duration-300 bg-gray-700/90 backdrop-blur-sm">
+      <div id="navbar" className="z-50 fixed w-full top-0 left-0 h-20 py-0 sm-mobile:px-4 mobile:px-10 md:px-10 tablet:px-24 box-border flex justify-between items-center duration-300 bg-gray-700/90 backdrop-blur-sm">
         <a href="https://lucaspereira.vercel.app/" className="border-2 px-4 py-2 text-white-100 rounded-md hover:bg-white-100/10 transition-all duration-300">
           L
         </a>

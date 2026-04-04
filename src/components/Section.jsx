@@ -2,9 +2,7 @@ import Aos from 'aos';
 import { useTranslation } from 'react-i18next';
 import SocialLinks from './SocialLinks';
 import About from './sections/About';
-import ReactProjects from './sections/React-projects';
-import ShopifyProjects from './sections/Shopify-projects';
-import WebflowProjects from './sections/Webflow-projects';
+import Projects from './sections/Projects';
 import GitProjects from './sections/Git-projects';
 import Contact from './sections/Contact';
 import Intro from './sections/Intro';
@@ -18,7 +16,7 @@ function Section() {
   const { t } = useTranslation();
 
   return (
-    <div className="2xl:max-w-[1536px] sm-mobile:px-2 mobile:px-6 sm:px-12 md:px-28 lg:px-36 xl:px-44">
+    <div className="2xl:max-w-[1536px] sm-mobile:px-2 mobile:px-6 sm:px-12 md:px-10 tablet:px-24 lg:px-36 xl:px-44">
       <div data-aos="fade-in" className="sm:w-auto flex items-center justify-center pt-28">
         <div className="fixed left-10 bottom-0 sm-mobile:hidden mobile:hidden sm:hidden md:flex lg:flex xl:flex 2xl:flex flex-col items-center justify-center">
           <SocialLinks />
@@ -43,9 +41,7 @@ function Section() {
 
       <Intro />
       <About />
-      <ReactProjects />
-      <ShopifyProjects />
-      <WebflowProjects />
+      <Projects />
       <GitProjects />
       <Contact />
     </div>

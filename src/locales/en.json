@@ -1,9 +1,7 @@
 {
   "nav": {
     "about": "About",
-    "react": "React",
-    "shopify": "Shopify",
-    "webflow": "Webflow",
+    "projects": "Projects",
     "contact": "Contact",
     "resume": "Resume"
   },
@@ -19,6 +17,11 @@
     "title": "About me",
     "p1": "Hi, I'm Lucas Pereira, and my passion is development. I have a degree in Systems Analysis and Development, and since the beginning of my programming journey, I've been driven by a constant desire to learn and evolve. I fully embraced Full-Stack development, honing my skills in both user interface creation and Back-End system development and optimization.",
     "p2": "Currently, I work as a Full-Stack Developer, working on projects that require a complete approach, from creating fluid user experiences to implementing efficient and scalable system logic. I'm always looking to explore new technologies, improve my problem-solving ability, and develop innovative solutions that make an impact."
+  },
+  "projects": {
+    "number": "02.",
+    "title": "Projects",
+    "featured": "Featured Project"
   },
   "reactProjects": {
     "number": "02.",
@@ -100,7 +103,7 @@
     }
   },
   "contact": {
-    "number": "05.",
+    "number": "03.",
     "label": "Contact",
     "title": "Get in Touch",
     "description": "You can reach me by email :)",
