@@ -8,16 +8,16 @@ function ProjectCard({ image, name, description, techs, links, align = 'right', 
       <a
         href={links.live || links.github}
         target="_blank"
-        className={`sm-mobile:bg-red-700/70 sm:bg-red-700/70 md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 ${isRight ? 'left-0' : 'right-0'} sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px] xl:w-[700px] rounded-[3px] z-10`}
+        className={`sm-mobile:bg-red-700/50 sm:bg-red-700/50 md:bg-red-500/40 md:hover:bg-red-500/0 transition-all duration-400 md:cursor-pointer absolute xl:top-0 ${isRight ? 'left-0' : 'right-0'} sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px] xl:w-[700px] rounded-[3px] z-10`}
       ></a>
       <div id={isRight ? 'link-img-2' : 'link-img'} className="absolute left-0 sm-mobile:block md:hidden"></div>
       <img
-        className={`sm-mobile:hidden md:block absolute xl:top-0 ${isRight ? 'left-0' : 'right-0'} sm-mobile:opacity-25 sm:opacity-25 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px] xl:w-[700px] rounded-[3px] object-cover`}
+        className={`absolute xl:top-0 ${isRight ? 'left-0' : 'right-0'} sm-mobile:opacity-50 sm:opacity-50 md:opacity-100 sm-mobile:h-[100%] sm-mobile:w-[100%] sm:h-[49vw] sm:w-[100%] md:h-[34vw] md:w-[65%] lg:h-[30vw] lg:min-w-[50%] lg:w-[60%] xl:h-[400px] xl:w-[700px] rounded-[3px] object-cover`}
         src={image}
         alt={name}
       />
       <div
-        className={`sm-mobile:h-auto sm:h-auto md:h-[360px] ${isRight ? 'sm-mobile:w-[100%] sm:w-auto' : 'mobile:w-[100%] sm:w-[100%]'} py-7 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} justify-between gap-y-6 md:gap-y-0`}
+        className={`sm-mobile:h-auto sm:h-auto md:h-[360px] ${isRight ? 'sm-mobile:w-[100%] sm:w-auto' : 'mobile:w-[100%] sm:w-[100%]'} py-7 mobile:px-7 sm:px-7 md:px-0 flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} justify-between gap-y-6 md:gap-y-0 sm-mobile:[text-shadow:_1px_1px_3px_rgba(0,0,0,0.3)] sm:[text-shadow:_1px_1px_3px_rgba(0,0,0,0.3)] md:[text-shadow:none]`}
       >
         <div className={`flex flex-col sm-mobile:items-start sm:items-start ${isRight ? 'md:items-end' : 'md:items-start'} z-20`}>
           <span className="sm-mobile:text-[#dd2f2f] sm:text-[#dd2f2f] md:text-red-500 text-sm pb-1">
