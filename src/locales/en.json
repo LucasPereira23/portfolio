@@ -9,14 +9,14 @@
     "greeting": "Hi, my name is",
     "name": "Lucas Pereira.",
     "role": "Full-Stack Developer.",
-    "description": "Full-stack developer committed to delivering quality solutions focused on what really matters for the project.",
+    "description": "Full-stack developer who likes building things that work well and make sense for the people using them.",
     "cta": "Check out my projects"
   },
   "about": {
     "number": "01.",
     "title": "About me",
-    "p1": "Hi, I'm Lucas Pereira, and my passion is development. I have a degree in Systems Analysis and Development, and since the beginning of my programming journey, I've been driven by a constant desire to learn and evolve. I fully embraced Full-Stack development, honing my skills in both user interface creation and Back-End system development and optimization.",
-    "p2": "Currently, I work as a Full-Stack Developer, working on projects that require a complete approach, from creating fluid user experiences to implementing efficient and scalable system logic. I'm always looking to explore new technologies, improve my problem-solving ability, and develop innovative solutions that make an impact."
+    "p1": "I got into programming because I fell in love with the process of building things from scratch and seeing them come to life. I have a degree in Systems Analysis and Development, and over time I naturally gravitated toward Full-Stack — I enjoy both crafting interfaces and solving the problems that live underneath them.",
+    "p2": "Throughout my career I've worked with Java, Vue.js, Python, React.js, Shopify, and Webflow, always paying close attention to user experience, performance, and integrations that actually need to work. I like learning new things and I'm always looking for better ways to do what I already do."
   },
   "projects": {
     "number": "02.",

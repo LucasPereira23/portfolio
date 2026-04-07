@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 import perfil from '../../assets/images/perfil.jpg';
 
 const skills = [
-  ['React', 'Vue.js', 'Java', 'Shopify', 'Python'],
-  ['Next.js', 'Docker', 'TypeScript', 'Jest', 'Git'],
+  ['React', 'Vue.js', 'Shopify', 'Webflow','Next.js', 'TypeScript', 'Jest'],
+  ['Java', 'Python', 'Docker', 'Git', 'PostgreSQL', 'Oracle', 'MSSQL'],
 ];
 
 function About() {

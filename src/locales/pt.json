@@ -9,14 +9,14 @@
     "greeting": "Olá, meu nome é",
     "name": "Lucas Pereira.",
     "role": "Desenvolvedor Full-Stack.",
-    "description": "Desenvolvedor full-stack comprometido em entregar soluções de qualidade com foco no que realmente importa para o projeto.",
+    "description": "Desenvolvedor full-stack que gosta de construir coisas que funcionam bem e fazem sentido para quem usa.",
     "cta": "Confira meus projetos"
   },
   "about": {
     "number": "01.",
     "title": "Sobre mim",
-    "p1": "Olá, sou Lucas Pereira, e minha paixão é o desenvolvimento. Tenho formação em Análise e Desenvolvimento de Sistemas e, desde o início da minha jornada na programação, fui movido por um desejo constante de aprender e evoluir. Abracei completamente o desenvolvimento Full-Stack, aprimorando minhas habilidades tanto na criação de interfaces de usuário quanto no desenvolvimento e otimização de sistemas Back-End.",
-    "p2": "Atualmente, trabalho como Desenvolvedor Full-Stack, atuando em projetos que exigem uma abordagem completa, desde a criação de experiências de usuário fluidas até a implementação de lógicas de sistema eficientes e escaláveis. Estou sempre em busca de explorar novas tecnologias, aprimorar minha capacidade de resolução de problemas e desenvolver soluções inovadoras que gerem impacto."
+    "p1": "Comecei a programar porque me apaixonei pelo processo de criar coisas do zero e ver funcionando. Tenho formação em Análise e Desenvolvimento de Sistemas e, com o tempo, fui naturalmente migrando para o Full-Stack — gosto tanto de construir interfaces quanto de resolver os problemas que ficam por baixo delas.",
+    "p2": "Ao longo da minha carreira trabalhei com Java, Vue.js, Python, React.js, Shopify e Webflow, sempre com atenção à experiência do usuário, performance e integrações que precisam funcionar de verdade. Gosto de aprender coisas novas e estou sempre buscando formas melhores de fazer o que já faço."
   },
   "projects": {
     "number": "02.",
